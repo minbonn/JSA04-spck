@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Page</title>
+    <link rel="stylesheet" href="./sp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="top-menu">
+            <div class="logo-img">
+                <a href="trangchu.html">
+                    <img style="width: 100%; height: 100%;" src="image/logo_muji.png" alt="muji">
+                </a>
+            </div>
+            <div class="page">
+                <a href="sp.html">Sản phẩm</a>
+                <a href="store.html">Cửa hàng</a>
+                <a href="muji.html">Về Muji</a>
+            </div>
+            <div class="icon">
+                <a href="./favorite.html">
+                    <i style="font-size: 23px;" class="fa-solid fa-heart"></i>
+                </a>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="login.html">
+                    <i class="fa-solid fa-user" id="users"></i>
+                </a>
+            </div>
+        </div>  
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Bút', 'but')">Bút</button>
+            <button class="tablinks" onclick="openCity(event, 'Balo', 'balo')">Balo</button>
+            <button class="tablinks" onclick="openCity(event, 'Sổ ghi chú', 'so')">Sổ ghi chú</button>
+        </div>
+        <!-- Tab content -->
+        <div id="Bút" class="tabcontent">
+            <div class="pen-container container" >
+                <div id="but" style="width: 100%;height: 100%;display: flex;flex-wrap: wrap; margin: auto;"></div>
+            </div>
+        </div>
+        <div id="Balo" class="tabcontent">
+            <div class="pen-container container" >
+                <div id="balo" style="width: 100%;height: 100%;display: flex;flex-wrap: wrap; margin: auto;"></div>
+            </div>
+        </div>
+        <div id="Sổ ghi chú" class="tabcontent">
+            <div class="pen-container container" >
+                <div id="so" style="width: 100%;height: 100%;display: flex;flex-wrap: wrap; margin: auto;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./sp.js"></script>
+</html>

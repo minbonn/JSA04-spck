@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#highlight{
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-menu{
+    height: 10vh;
+    color: gray;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 3em;
+    grid-row-gap: 1em;
+    padding: 15px 64px;
+}
+
+.logo-img{
+    width: 170px;
+    height: 80%;
+}
+
+.top-menu .page{
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.top-menu .page a{
+    color: gray;
+}
+
+.top-menu .page a:hover {
+    color: black;
+}
+
+.top-menu .icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-menu .icon a{
+    text-decoration: none;
+    color: gray;
+}
+
+.top-menu .icon i{
+    padding: 0 16px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+/* cart */
+
+.cart-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.cart{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.cart-left{
+    width: 70%;
+}
+.cart-card{ 
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.cart-card .image{
+    width: 15%;
+    height: 100%;
+}
+
+.card-mid{
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-mid-type{
+    display: flex;
+}
+.type{
+    margin-left: 5px;
+}
+.card-end{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+}
+span{
+    margin-top: 7px;
+}
+.price{
+    font-size: 18px;
+}
+.cart-right{
+    width: 30%;
+    height: 60vh;
+}
+
+
+/* cart - right */
+.button{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.checkout{
+    width: 90%;
+    height: 40%;
+    background-color: gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+}
+.checkout:hover{
+    background:black;
+}
